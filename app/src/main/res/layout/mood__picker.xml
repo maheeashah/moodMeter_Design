@@ -7,63 +7,157 @@
     android:background="#F3F2EE"
     android:backgroundTint="#F6F6F1">
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="114dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#FFEB3B"
+        android:fontFamily="@font/caveat_brush"
+        android:foregroundTint="#2196F3"
+        android:text="Yellow Zone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="114dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#F44336"
+        android:fontFamily="@font/caveat_brush"
+        android:foregroundTint="#2196F3"
+        android:text="Red Zone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="165dp"
+        android:layout_height="170dp"
+        android:background="#FF5722"
+        android:fontFamily="@font/caveat_brush"
+        android:gravity="center_vertical"
+        android:text="Angry                                                                    Scared                                            Panic                                                         Frustrated"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.823" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="165dp"
+        android:layout_height="170dp"
+        android:background="#B42196F3"
+        android:fontFamily="@font/caveat_brush"
+        android:gravity="center_vertical"
+        android:text="Sad                                                                    Tired                                            Sick                                                         Bored"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.317" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="165dp"
+        android:layout_height="170dp"
+        android:background="#FBED6D"
+        android:fontFamily="@font/caveat_brush"
+        android:gravity="center_vertical"
+        android:text="Excited                                                                    Anxious                                            Nervous                                                         Confused"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.823" />
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="188dp"
         android:layout_height="125dp"
-        android:fontFamily="@font/lobster_two"
+        android:fontFamily="@font/caveat_brush"
         android:text="How are you feeling today?"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#070000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.547"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.026" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#03A9F4"
+        android:layout_width="106dp"
+        android:layout_height="48dp"
         android:backgroundTint="#2196F3"
+        android:fontFamily="@font/caveat_brush"
         android:foregroundTint="#2196F3"
         android:text="Blue Zone"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="163dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.221" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="289dp"
-        tools:layout_editor_absoluteY="163dp" />
+        android:id="@+id/button1"
+        android:layout_width="114dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="@font/caveat_brush"
+        android:foregroundTint="#2196F3"
+        android:text="Green Zone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.221" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="165dp"
+        android:layout_height="170dp"
+        android:background="#8BC34A"
+        android:fontFamily="@font/caveat_brush"
+        android:gravity="center_vertical"
+        android:text="Calm                                                                    Happy                                            I'm focused                                                         Feeling okay"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.317" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="421dp" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="289dp"
-        tools:layout_editor_absoluteY="421dp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="165dp"
-        android:layout_height="170dp"
-        android:background="#B42196F3"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="183dp" />
+        android:layout_width="89dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#FBC2D5"
+        android:text="Need Help"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="669dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
