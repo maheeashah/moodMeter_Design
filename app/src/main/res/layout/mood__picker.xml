@@ -92,7 +92,7 @@
         android:id="@+id/textView2"
         android:layout_width="188dp"
         android:layout_height="125dp"
-        android:fontFamily="@font/lobster_two"
+        android:fontFamily="@font/caveat_brush"
         android:text="How are you feeling today?"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"

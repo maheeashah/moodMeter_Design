@@ -25,7 +25,7 @@
         android:layout_height="45dp"
         android:background="@color/white"
         android:backgroundTint="@color/white"
-        android:fontFamily="@font/lobster_two"
+        android:fontFamily="serif"
         android:text="Resources"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
@@ -40,15 +40,62 @@
         android:id="@+id/textView6"
         android:layout_width="151dp"
         android:layout_height="156dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="175dp" />
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:text="                                                                                 We all have bad days. It's okay, we're here to help you."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.307" />
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="117dp"
-        android:layout_height="44dp"
+        android:layout_width="85dp"
+        android:layout_height="37dp"
+        android:backgroundTint="#FFC107"
         android:text="breathe"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="143dp" />
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="174dp"
+        android:layout_height="319dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.429"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="171dp"
+        android:layout_height="124dp"
+        android:background="@color/white"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.593" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="365dp"
+        android:layout_height="180dp"
+        android:background="@color/white"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952" />
 </androidx.constraintlayout.widget.ConstraintLayout>
