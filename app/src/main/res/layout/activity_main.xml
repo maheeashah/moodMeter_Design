@@ -60,31 +60,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emailEditText" />
 
-    <Button
-        android:id="@+id/signInButton"
-        android:layout_width="110dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="60dp"
-        android:background="@color/pink"
-        android:onClick="handleAuthChange"
-        android:text="Sign in"
-        app:layout_constraintStart_toEndOf="@+id/signUpButton"
-        app:layout_constraintTop_toBottomOf="@+id/passwordEditText" />
-
-    <Button
-        android:id="@+id/signUpButton"
-        android:layout_width="110dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="60dp"
-        android:background="@color/pink"
-        android:backgroundTint="@color/white"
-        android:onClick="handleAuthChange"
-        android:text="Sign up"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordTV" />
-
     <TextView
         android:id="@+id/authMessageTextView"
         android:layout_width="250sp"
@@ -115,6 +90,22 @@
         app:layout_constraintHorizontal_bias="0.627"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="392dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
