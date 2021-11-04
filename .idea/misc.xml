@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/shah1529/Documents/GitHub/moodMeter_Design/app/src/main/res/drawable/logo_background.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/shah1529/Documents/GitHub/moodMeter_Design/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/shah1529/Documents/GitHub/moodMeter_Design/app/src/main/res/layout/calendar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/shah1529/Documents/GitHub/moodMeter_Design/app/src/main/res/layout/hg.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/shah1529/Documents/GitHub/moodMeter_Design/app/src/main/res/layout/mood__picker.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/shah1529/Documents/GitHub/moodMeter_Design/app/src/main/res/layout/resources.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/shah1529/Documents/GitHub/moodMeter_Design/app/src/main/res/layout/signup.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
