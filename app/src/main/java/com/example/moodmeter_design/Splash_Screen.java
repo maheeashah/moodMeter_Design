@@ -12,7 +12,7 @@ public class Splash_Screen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_main);
 
         /* New Handler to start the Menu-Activity
          * and close this Splash-Screen after some seconds.*/

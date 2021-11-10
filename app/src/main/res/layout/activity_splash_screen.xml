@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FB7695"
     android:gravity="center"
-    android:background="@color/white"
-    tools:context="rocareindia.in.caprispine.Splash_Screen">
+    tools:context=".Splash_Screen">
+
 
     <pl.droidsonroids.gif.GifImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/logo_background"/>
+        android:layout_width="187dp"
+        android:layout_height="215dp"
+        android:src="@drawable/_00w" />
 </LinearLayout>
