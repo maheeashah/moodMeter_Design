@@ -10,7 +10,7 @@
 
 
     <pl.droidsonroids.gif.GifImageView
-        android:layout_width="187dp"
-        android:layout_height="215dp"
+        android:layout_width="89dp"
+        android:layout_height="113dp"
         android:src="@drawable/_00w" />
 </LinearLayout>
